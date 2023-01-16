@@ -1,0 +1,270 @@
+#bo{
+	/*整体背景图片*/
+	background-image: url(img/bg.jpg);
+	}
+
+#whole {
+	/*整个div的外边距*/
+	margin: 0 30px;
+	/*整个div的背景底色*/
+	background-color: #F5F5DC;
+}
+
+#title{
+	/* 标题的对齐方式 */
+	text-align: center;
+	/* 标题颜色 */
+	color: #DC143C;
+	/* 标题高度 */
+	height: 50px;
+	/* 行高 */
+	line-height: 50px;
+}
+
+#guide{
+	/* li标签对齐方式 */
+	text-align: center;
+}
+
+#guide li{
+	/* li标签背景颜色 */
+	background-color: #FFE4C4;
+	/* li标签设置为行内块级元素 */
+	display: inline-block;
+	/* 设置圆角边框 */
+	border: #FFE4C4 1px solid;
+	border-radius: 10px 10px; /*做成圆角*/
+	/* li标签的宽 */
+	width: 200px;
+	/*li标签的高*/
+	height: 50px;
+	/*li标签的行高*/
+	line-height: 50px;
+	/* 字体大小 */
+	font-size: 20px;
+	/* 字体样式 */
+	font-family: "arial rounded mt bold";
+	/* 字体粗细 */
+	font-weight: 900;
+}
+
+#guide a{
+	/* a标签字体颜色 */
+	color: #FF7F50;
+	/* 去除下划线 */
+	text-decoration: none;
+}
+
+#bri{
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 背景颜色 */
+	background-color: #FFE4C4;
+	/* 字体颜色 */
+	color: brown;
+	height: 40px;
+	line-height: 5px;
+	/* 设置圆角边框 */
+	border: #FFE4C4; solid 1px;
+	border-radius: 0 10px;
+	/* 对齐方式 */
+	text-align: left;
+	/* 字体样式 */
+	font-family: "bodoni mt black"
+}
+
+#picture1{
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 外边距 */
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-right: 10%;
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 设置左浮动 */
+	float: left;
+
+}
+
+#text1{
+	/* 设置宽度 */
+	width: 580px;
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 设置字体 */
+	font-size: 15px;
+	font-family: "仿宋";
+	font-weight: 900;
+	color: orange;
+	/* 首行缩进效果 */
+	text-indent: 2em;
+	/* 设置对齐方式 */
+	vertical-align: middle;
+	text-align: justify;
+	/* 设置内边距 */
+	padding: 0 10px;
+	/* 设置边框 */
+	border: orange groove;
+	border-width: 3px;
+	/* 设置左浮动 */
+	float: left;
+}
+
+#info{
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 设置外边距 */
+	margin-top: 3%;
+	/* 背景颜色 */
+	background-color: #FFE4C4;
+	/* 字体颜色 */
+	color: brown;
+	height: 40px;
+	line-height: 5px;
+	/* 设置圆角边框 */
+	border: #FFE4C4; solid 1px;
+	border-radius: 0 10px;
+	/* 对齐方式 */
+	text-align: left;
+	/* 字体样式 */
+	font-family: "bodoni mt black"
+	/* 设置为行内块级元素 */
+	}
+	
+#list li{
+	/* 字体颜色 */
+	color: orange;
+}	
+
+#list{
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 设置左浮动 */
+	float: left;
+}
+
+#picture2{
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 外边距 */
+	margin-top: 1%;
+	margin-left: 20%;
+	margin-right: 20%;
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 设置左浮动 */
+	float: left;
+	vertical-align: middle;
+}
+	
+#excel1 td{
+	/* 字体样式 */
+	font-family: 隶书;
+	/* 字体粗细 */
+	font-weight: 800;
+	/* 字体大小 */
+	font-size: 20px;
+}
+	
+#excel1 th{
+	/* 设置两边对齐 */
+	text-align: justify;
+}
+
+#excel1 tr{
+	/* 字体颜色 */
+	color: orange;
+}
+
+#excel1{
+	/* 设置外边距 */
+	margin-top: 3%;
+}
+
+#excel2 td{
+	/* 字体样式 */
+	font-family: 隶书;
+	/* 字体粗细 */
+	font-weight: 800;
+	/* 字体大小 */
+	font-size: 20px;
+}
+
+#excel2 th{
+	/* 设置两边对齐 */
+	text-align: justify;
+}
+
+#excel2 tr{
+	/* 字体颜色 */
+	color: orange;
+}
+
+#excel2{
+	/* 设置外边距 */
+	margin-top: 3%;
+}
+#al{
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 设置外边距 */
+	margin-top: 3%;
+	/* 背景颜色 */
+	background-color: #FFE4C4;
+	/* 字体颜色 */
+	color: brown;
+	height: 40px;
+	line-height: 5px;
+	/* 设置圆角边框 */
+	border: #FFE4C4; solid 1px;
+	border-radius: 0 10px;
+	/* 对齐方式 */
+	text-align: left;
+	/* 字体样式 */
+	font-family: "bodoni mt black"
+}
+
+#aw{
+	/* 设置为行内块级元素 */
+	display: inline-block;
+	/* 设置外边距 */
+	margin-top: 3%;
+	/* 背景颜色 */
+	background-color: #FFE4C4;
+	/* 字体颜色 */
+	color: brown;
+	height: 40px;
+	line-height: 5px;
+	/* 设置圆角边框 */
+	border: #FFE4C4; solid 1px;
+	border-radius: 0 10px;
+	/* 对齐方式 */
+	text-align: left;
+	/* 字体样式 */
+	font-family: "bodoni mt black"
+}
+
+#return a{
+	/* 字体颜色 */
+	color: "矢车菊蓝";
+	/* 字体大小 */
+	font-size: 20px;
+	/* 字体粗细 */
+	font-weight: bold;
+	/* 字体样式 */
+	font-family: "楷体";
+	/* 去除下划线 */
+	text-decoration: none;
+}
+
+#copyright{
+	/* 背景颜色 */
+	background-color: #F0E68C;
+	/* 字体颜色 */
+	color:orange;
+	/* 设置高度 */
+	height: 70px;
+	/* 设置行高 */
+	line-height: 70px;
+}

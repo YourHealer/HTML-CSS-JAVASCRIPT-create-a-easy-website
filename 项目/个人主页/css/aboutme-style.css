@@ -1,0 +1,41 @@
+/* 鉴于代码行数较少 主要选择通过行内样式表对页面样式进行修改  故部分css内容存在于html页面中*/
+
+#guide li{
+	/* li标签背景颜色 */
+	background-color:cornflowerblue;
+	/* li标签设置为行内块级元素 */
+	display: inline-block;
+	/* 设置圆角边框 */
+	border: #FFE4C4 1px solid;
+	border-radius: 10px 10px; /*做成圆角*/
+	/* li标签的宽 */
+	width: 200px;
+	/*li标签的高*/
+	height: 50px;
+	/*li标签的行高*/
+	line-height: 50px;
+	/* 字体大小 */
+	font-size: 20px;
+	/* 字体样式 */
+	font-family: "arial rounded mt bold";
+	/* 字体粗细 */
+	font-weight: 900;
+}
+
+#ann{
+	/* 设置字体颜色 */
+	color: bisque;
+	/* 设置字体大小 */
+	font-size: 16px;
+}
+
+#endd{
+	/* 设置对齐方式 */
+	text-align: center;
+	/* 字体颜色 */
+	color: blue;
+	/* 字体样式 */
+	font-family: "bodoni mt condensed";
+	/* 字体大小 */
+	font-size: 20px;
+}

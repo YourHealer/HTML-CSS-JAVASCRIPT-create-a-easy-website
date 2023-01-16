@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>马克思主义基本原理概论线上测试</title>
+		<!-- <link rel="stylesheet" type="text/css" href="css/onlinetest-style.css"/> -->
+		<style type="text/css">
+			#tit{
+				text-align: center;
+			}
+			
+			#tit h2{
+				color: darkorchid;
+			}
+			
+			#tit p{
+				color: darkorchid;
+				text-align: center;
+				font-size: 16px;
+				font-family: 仿宋;
+				font-weight: 700;
+			}
+			
+			#info{
+				font-family: 宋体;
+				font-weight: 900;
+				text-align: center;
+				color: fuchsia;
+			}
+			
+			#f11{
+				border: 2px solid plum;
+				border-radius: 3px; 
+				padding-left:5px;
+				width: 120px;
+			}
+			
+			#f12{
+				border: 2px solid plum;
+				border-radius: 3px; 
+				padding-left:5px;
+				width: 120px;
+			}
+			#f13{
+				border: 2px solid plum;
+				border-radius: 3px; 
+				padding-left:5px;
+				width: 120px;
+			}
+			
+			#f14{
+				border: 2px solid plum;
+				border-radius: 3px; 
+				padding-left:5px;
+				width: 120px;
+				color:fuchsia ;
+			}
+			
+			#reminder{
+				color: purple;
+				font-family: 楷体;
+				text-align: justify;
+				margin-top: 2%;
+			}
+			
+			#reminder_1{
+				font-size: 17px;
+			}
+			
+			#reminder_2{
+				font-size: 17px;
+			}
+			
+			#clean{
+				clear: both;
+			}
+			
+			#one_select_tit{
+				text-align: center;
+			}
+			
+			#tent_one{
+				margin-top:3% ;
+			}
+			
+			#tent_one li{
+				list-style: none;
+			}
+			
+			#mul_select_tit{
+				text-align: center;
+				margin-top: 5%;
+			}
+			
+			#tent_mul li{
+				list-style: none;
+			}
+			
+			#tent_mul{
+				margin-top:3% ;
+				border: #800080,1px;
+			}
+			
+			#endd{
+				/* 背景颜色 */
+				background-color: blueviolet;
+				/* 字体颜色 */
+				color:white;
+				/* 设置高度 */
+				height: 70px;
+				/* 设置行高 */
+				line-height: 70px;
+				/* 字体大小 */
+				font-size: 20px;
+				/* 字体样式 */
+				font-family:仿宋;
+				/* 字体粗细 */
+				font-weight: 800;
+			}
+			
+			#butt{
+				text-align: right;
+				margin-top: 2%;
+			}
+			
+			#but{
+				text-align: center;
+				margin-top: 2%;
+			}
+			
+			
+			
+			#f2{
+			    border: 2px solid plum; 
+			    border-radius: 3px; 
+			    padding-left:5px;
+				font-family: 黑体;
+				font-size: 20px;
+				font-weight: 800;
+				color: black;
+				width: 100px;
+				height: 50px;
+				background-color: plum;
+			}
+			
+			#tent_main1{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main2{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main3{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main4{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main5{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main6{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main7{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main8{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main9{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main10{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main11{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main22{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main33{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main44{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#tent_main55{
+				color: #8A2BE2;
+				font-family: 黑体;
+			}
+			
+			#sugg{
+				margin-top:5% ;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body background="img/bg1.png">
+		
+		<script>
+			var myDate = new Date();  //创建一个日期对象。
+		var myHour = myDate.getHours();  //获得当前的小时数。
+		var welcomeString;
+		
+		    if(myHour<12)  //根据小时数显示不同的欢迎信息。
+		      welcomeString="早上好";
+		    else if(myHour<18)
+		      welcomeString="下午好";
+		    else
+		      welcomeString="晚上好";
+			  
+			document.write(welcomeString);
+			document.write("！");
+			document.write("你又来做题啦~");
+			
+		</script>
+		
+		<!-- 考试标题 -->
+		<div id="tit" onload="time()">
+			<font size="6">
+				<h2>马克思主义基本原理概论</h2>
+				<p>
+					北京理工大学2021-2022学年度期末测试
+				</p>
+			</font>
+		</div>
+		
+		<br>
+
+		<!-- 考生信息 -->
+		<div id="info">
+			<form action="" method="get" target="_blank">
+				班级：<input type="text" maxlength="10" id="f13" />
+				学号：<input type="text" maxlength="10" id="f12" />
+				姓名：<input type="text" maxlength="10" id="f11" />
+				书院：
+				<select id="f14" >
+					<option value ="blank">请选择书院</option>
+					<option value ="jinggong">精工书院</option>
+					<option value ="ruixin">睿信书院</option>
+					<option value ="qiushi">求是书院</option>
+					<option value ="mingde">明德书院</option>
+					<option value ="jingguan">经管书院</option>
+					<option value ="zhiyi">知艺书院</option>
+					<option value ="teli">特立书院</option>
+					<option value ="beijing">北京书院</option>
+					<option value ="lingwen">令闻书院</option>
+				</select>
+				
+				<!-- 提交按钮 -->
+				<div id="butt">
+					<label>
+						<form action="" method="get" target="_blank">
+							<button type="submit" id="f2" onclick="sum()">提交</button>
+						</form>
+					</label>
+				</div>
+				
+			</form>
+		</div>
+		
+		<!-- 考生须知 -->
+		<div id="reminder">
+			
+		<!-- 分割线 -->
+		<div align="center">
+			—————————————————————————————————————————————————————————————————————————
+		</div>
+		<br>
+		
+		<!-- 左边的文字块 -->
+		<div style="float: left;">
+		
+		<!-- 考察对象 -->
+		<div id="reminder_1">
+			<strong>本次考试针对2020级本科生就《马克思主义基本原理概论》内容进行考察。</strong>
+		</div>
+		<br>
+		
+		<!-- 考察内容 -->
+		<div>
+			考察内容为：<br>
+			第一章：世界的物质性及发展规律<br>
+			第二章：实践与认知及其发展规律<br>
+			第三章：人类社会及其发展规律<br>
+			第四章：资本主义的本质及规律<br>
+			第五章：资本主义的发展及其趋势<br>
+			第六章：社会主义的发展及其规律<br>
+			第七章：共产主义崇高理想及其最终实现<br>
+		</div>
+		<br>
+		
+		<!-- 考察形式 -->
+		<div id="reminder_2">	
+			<strong>本次考试共分为单选题与多选题两部分，卷面满分为100分。考察方式为开卷考试，时间为120分钟。</strong><br>
+		</div>
+		
+		</div>
+		
+		<!-- 右边的图片块 -->
+		<div style="float: right;" >
+			<img src="img/马克思.jpeg" width="200px" height="250px">
+		</div>
+		
+		<!-- 清除浮动 -->
+		<div id="clean"></div>
+		
+		<br>
+		<!-- 分割线 -->
+		<div align="center">
+			—————————————————————————————————————————————————————————————————————————
+		</div>
+		
+		</div>
+		
+		<div >
+		<!-- 单选题 -->
+		<div id="one_select">
+			
+			<!-- 标题 -->
+			<div id="one_select_tit">
+				<font size="6">
+					<h4>第一部分 单选题</h2>
+				</font>
+			</div>
+			
+			<!-- 题型描述 -->
+			<div>
+				<font>
+					单选题：本大题共10小题，每题4分，共40分。在每小题给出的四个选项中，只有一项是符合题目要求或正确的，不选或多选不得分。
+				</font>
+			</div>
+			
+			<!-- 考试内容 -->
+			<div id="tent_one">
+				<!-- 题干 -->
+				<div id="tent_main1">
+					<i>1.</i><span>(4分)</span>
+					<font>马克思主义理论最根本的本质属性是（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel1">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_1" value="4"/>A.科学性	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_1" value="0"/>B.革命性	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_1" value="0"/>C.实践性	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_1" value="0"/>D.开放性	
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main2">
+					<i>2.</i><span>(4分)</span>
+					<font>主观辩证法与客观辩证法的关系是（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel2">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_2" value="4"/>A.反映与被反映的关系	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_2" value="0"/>B.唯心主义与唯物主义的关系	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_2" value="0"/>C.抽象与具体的关系
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_2" value="0"/>D.唯心辩证法与唯物辩证法的关系
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main3">
+					<i>3.</i><span>(4分)</span>
+					<font>“社会上一旦有技术上的需要，则这种需要会比十所大学更能把科学推向前进。”这说明（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel3">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_3" value="0"/>A.实践是认识的来源
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_3" value="0"/>B.技术推动了科学的发展
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_3" value="4"/>C.实践是认识发展的动力
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_3" value="0"/>D.科学进步是实践的目的
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main4">
+					<i>4.</i><span>(4分)</span>
+					<font>理解人类社会历史奥秘的钥匙是（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel4">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_4" value="0"/>A.阶级斗争史	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_4" value="0"/>B.思想发展史
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_4" value="4"/>C.劳动发展史
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_4" value="0"/>D.文化发展史	
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main5">
+					<i>5.</i><span>(4分)</span>
+					<font>被马克思称作“商品的惊险的跳跃”，是指（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel5">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_5" value="0"/>A.劳动产品成为商品	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_5" value="4"/>B.商品转换为货币
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_5" value="0"/>C.货币转换为资本	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_5" value="0"/>D.剩余价值的资本化	
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main6">
+					<i>6.</i><span>(4分)</span>
+					<font>资本主义自由竞争阶段进入垄断阶段，最根本的标志在于（ ）在经济生活中占统治地位。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel6">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_6" value="4"/>A.垄断	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_6" value="0"/>B.国家垄断	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_6" value="0"/>C.资本输出
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_6" value="0"/>D.银行资本	
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main7">
+					<i>7.</i><span>(4分)</span>
+					<font>资本主义经济危机呈现出周期性的原因在于（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel7">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_7" value="0"/>A.资本主义基本矛盾的尖锐化	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_7" value="4"/>B.资本主义基本矛盾运动的特点
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_7" value="0"/>C.资本主义的基本矛盾周期性
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_7" value="0"/>D.资本主义再生产的周期性
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main8">
+					<i>8.</i><span>(4分)</span>
+					<font>恩格斯针对马克思主义政党提出的“生命的要素”、“内在力量”是指（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel8">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_8" value="0"/>A.集中制的组织原则	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_8" value="4"/>B.勇于开展批评和自我批评
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_8" value="0"/>C.工人阶级的先锋队性质
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_8" value="0"/>D.终身为共产主义事业奋斗
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main9">
+					<i>9.</i><span>(4分)</span>
+					<font>无产阶级解放斗争的最终目标是（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel9">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_9" value="0"/>A.夺取政权，消灭资产阶级
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_9" value="0"/>B.消灭剥削，消除两极分化	
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_9" value="0"/>C.实行按劳分配
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_9" value="4"/>D.实现共产主义
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main10">
+					<i>10.</i><span>(4分)</span>
+					<font>感性认识和理性认识的区别是（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel10">
+					<ul>
+						<li>
+							<input type="radio" name="tent_sel_10" value="0"/>A.前者可靠，后者不可靠
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_10" value="0"/>B.前者来源于实践，后者来源于理论
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_10" value="4"/>C.前者以反映事物的现象为内容，后者以反映事物的本质为内容
+						</li>
+						
+						<li>
+							<input type="radio" name="tent_sel_10" value="0"/>D.前者来源于直接经验，后者来源于间接经验
+						</li>
+					</ul>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<!-- 多选题 -->
+		<div id="mul_select">
+			
+			<!-- 标题 -->
+			<div id="mul_select_tit">
+				<font size="6">
+					<h4>第二部分 多选题</h2>
+				</font>
+			</div>
+			
+			<!-- 题型描述 -->
+			<div>
+				<font>
+					多选题：本大题共5小题，每个正确单选项支为4分，共60分。在每小题给出的四个选项中，至少有两项是符合题目要求或正确的。
+				</font>
+			</div>
+			
+			<!-- 考试内容 -->
+			<div id="tent_mul">
+				<!-- 题干 -->
+				<div id="tent_main11">
+					<i>1.</i>
+					<font>作为一个完整的科学体系，马克思主义理论体系的三个主要组成部分是（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel11">
+					<ul>
+						<li>
+							<input type="checkbox" name="tent_sel_11" value="0"/>A.马克思主义政治学
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_11" value="4"/>B.马克思主义政治经济学	
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_11" value="4"/>C.科学社会主义	
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_11" value="4"/>D.马克思主义哲学	
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main22">
+					<i>2.</i>
+					<font>“按图索骥”的错误在于（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel22">
+					<ul>
+						<li>
+							<input type="checkbox" name="tent_sel_22" value="4"/>A.理论脱离实际	
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_22" value="0"/>B.经验论	
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_22" value="4"/>C.教条主义
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_22" value="4"/>D.唯理论
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main33">
+					<i>3.</i>
+					<font>科学评价历史人物的方法是（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel33">
+					<ul>
+						<li>
+							<input type="checkbox" name="tent_sel_33" value="0"/>A.古为今用方法
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_33" value="4"/>B.历史分析方法
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_33" value="0"/>C.彻底批判方法
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_33" value="4"/>D.阶级分析方法
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main44">
+					<i>4.</i>
+					<font>马克思主义经典作家揭示的共产主义社会的基本特征是（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel44">
+					<ul>
+						<li>
+							<input type="checkbox" name="tent_sel_44" value="4"/>A.物质财富极大丰富，消费资料按需分配	
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_44" value="4"/>B.社会关系高度和谐，人们的精神境界极大提高
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_44" value="4"/>C.每个人自由而全面地发展
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_44" value="4"/>D.人类从必然王国进入自由王国
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 题干 -->
+				<div id="tent_main55">
+					<i>5.</i>
+					<font>马克思主义产生的直接理论来源有（ ）。</font>
+				</div>
+				
+				<!-- 选项 -->
+				<div id="tent_sel55">
+					<ul>
+						<li>
+							<input type="checkbox" name="tent_sel_55" value="4"/>A.德国古典哲学	
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_55" value="4"/>B.英国古典政治经济学
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_55" value="4"/>C.法国英国的空想社会主义
+						</li>
+						
+						<li>
+							<input type="checkbox" name="tent_sel_55" value="0"/>D.法国启蒙思想
+						</li>
+					</ul>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		</div>
+		
+		<!-- 试卷建议 -->
+		<div id="sugg">
+		<textarea rows="5" cols="150">请在此输入您对本试卷的建议！</textarea>
+		</div>
+
+		
+
+		
+		<!-- 温馨提示 -->
+		<div id="endd">
+			<p align="center">请在所有答案检查无误后提交。祝您好运！
+			</p>
+		</div>
+
+		
+	</body>
+</html>
+
+<script type="text/javascript">
+	function sum(){
+		var ans1=0;
+		var res1=document.getElementsByName("tent_sel_7")[1].checked;
+		if(res1){
+			ans1+=Number(document.getElementsByName("tent_sel_7")[1].value);
+		}
+		
+		var res2=document.getElementsByName("tent_sel_2")[0].checked;
+		if(res2){
+			ans1+=Number(document.getElementsByName("tent_sel_2")[0].value);
+		}
+
+		var res3=document.getElementsByName("tent_sel_3")[2].checked;
+		if(res3){
+			ans1+=Number(document.getElementsByName("tent_sel_3")[2].value);
+		}
+		
+		var res4=document.getElementsByName("tent_sel_4")[2].checked;
+		if(res4){
+			ans1+=Number(document.getElementsByName("tent_sel_4")[2].value);
+		}
+
+		var res5=document.getElementsByName("tent_sel_5")[1].checked;
+		if(res5){
+			ans1+=Number(document.getElementsByName("tent_sel_5")[1].value);
+		}
+
+		var res6=document.getElementsByName("tent_sel_6")[0].checked;
+		if(res6){
+			ans1+=Number(document.getElementsByName("tent_sel_6")[0].value);
+		}
+
+		var res7=document.getElementsByName("tent_sel_1")[0].checked;
+		if(res7){
+			ans1+=Number(document.getElementsByName("tent_sel_1")[0].value);
+		}
+
+		var res8=document.getElementsByName("tent_sel_8")[1].checked;
+		if(res8){
+			ans1+=Number(document.getElementsByName("tent_sel_8")[1].value);
+		}
+
+		var res9=document.getElementsByName("tent_sel_9")[3].checked;
+		if(res9){
+			ans1+=Number(document.getElementsByName("tent_sel_9")[3].value);
+		}
+
+		var res10=document.getElementsByName("tent_sel_10")[2].checked;
+		if(res10){
+			ans1+=Number(document.getElementsByName("tent_sel_10")[2].value);
+		}
+		
+		var ans2=0;
+		var res113=document.getElementsByName("tent_sel_11")[0].checked;
+		if(res113){
+			ans2+=Number(document.getElementsByName("tent_sel_11")[0].value);
+		}else{
+			var res110=document.getElementsByName("tent_sel_11")[1].checked;
+			if(res110){
+				ans2+=Number(document.getElementsByName("tent_sel_11")[1].value);
+			}
+			var res111=document.getElementsByName("tent_sel_11")[2].checked;
+			if(res111){
+				ans2+=Number(document.getElementsByName("tent_sel_11")[2].value);
+			}
+			var res112=document.getElementsByName("tent_sel_11")[3].checked;
+			if(res112){
+				ans2+=Number(document.getElementsByName("tent_sel_11")[3].value);
+			}
+		}
+
+		var res223=document.getElementsByName("tent_sel_22")[1].checked;
+		if(res223){
+			ans2+=Number(document.getElementsByName("tent_sel_22")[1].value);
+		}else{
+			var res220=document.getElementsByName("tent_sel_22")[0].checked;
+		if(res220){
+			ans2+=Number(document.getElementsByName("tent_sel_22")[0].value);
+		}
+		var res221=document.getElementsByName("tent_sel_22")[2].checked;
+		if(res221){
+			ans2+=Number(document.getElementsByName("tent_sel_22")[2].value);
+		}
+		var res222=document.getElementsByName("tent_sel_22")[3].checked;
+		if(res222){
+			ans2+=Number(document.getElementsByName("tent_sel_22")[3].value);
+		}
+		}
+		
+		var res332=document.getElementsByName("tent_sel_33")[0].checked;
+		var res333=document.getElementsByName("tent_sel_33")[2].checked;
+		if(res332){
+			ans2+=Number(document.getElementsByName("tent_sel_33")[0].value);
+		}else if(res333){
+			ans2+=Number(document.getElementsByName("tent_sel_33")[2].value);
+		}else{
+			var res330=document.getElementsByName("tent_sel_33")[1].checked;
+			if(res330){
+			ans2+=Number(document.getElementsByName("tent_sel_33")[1].value);
+			}
+			var res331=document.getElementsByName("tent_sel_33")[3].checked;
+			if(res331){
+			ans2+=Number(document.getElementsByName("tent_sel_33")[3].value);
+			}
+		}
+		
+		
+		
+		var res440=document.getElementsByName("tent_sel_44")[1].checked;
+		if(res440){
+			ans2+=Number(document.getElementsByName("tent_sel_44")[1].value);
+		}
+		var res441=document.getElementsByName("tent_sel_44")[2].checked;
+		if(res441){
+			ans2+=Number(document.getElementsByName("tent_sel_44")[2].value);
+		}
+		var res442=document.getElementsByName("tent_sel_44")[3].checked;
+		if(res442){
+			ans2+=Number(document.getElementsByName("tent_sel_44")[3].value);
+		}
+		var res443=document.getElementsByName("tent_sel_44")[0].checked;
+		if(res443){
+			ans2+=Number(document.getElementsByName("tent_sel_44")[0].value);
+		}
+		
+		var res553=document.getElementsByName("tent_sel_55")[3].checked;
+		if(res553){
+			ans2+=Number(document.getElementsByName("tent_sel_55")[3].value);
+		}else{
+			var res550=document.getElementsByName("tent_sel_55")[1].checked;
+			if(res550){
+				ans2+=Number(document.getElementsByName("tent_sel_55")[1].value);
+			}
+			var res551=document.getElementsByName("tent_sel_55")[2].checked;
+			if(res551){
+				ans2+=Number(document.getElementsByName("tent_sel_55")[2].value);
+			}
+			var res552=document.getElementsByName("tent_sel_55")[0].checked;
+			if(res552){
+				ans2+=Number(document.getElementsByName("tent_sel_55")[0].value);
+			}
+		}
+		
+		var answer=0;
+		answer=ans1+ans2;
+		var key="你的成绩为:"+answer+"分!";
+		alert(key);
+		}
+		
+		function getter(){
+			var t1=new Date().getTime();
+			return t1;
+		}
+		
+		function endder(){
+			var t2=new Date().getTime();
+			return t2;
+		}
+		
+		function cal(k){
+			var res;
+			res=(endder()-k/1000);
+			return rreess;
+		}
+</script>
